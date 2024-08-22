@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mithun636/Shopping-Cart-using-Reactjs.git/static/css/main.4e2b1c85.css",
+    "main.js": "/Mithun636/Shopping-Cart-using-Reactjs.git/static/js/main.dd5da3d3.js",
+    "static/js/453.0f4552a2.chunk.js": "/Mithun636/Shopping-Cart-using-Reactjs.git/static/js/453.0f4552a2.chunk.js",
+    "index.html": "/Mithun636/Shopping-Cart-using-Reactjs.git/index.html",
+    "main.4e2b1c85.css.map": "/Mithun636/Shopping-Cart-using-Reactjs.git/static/css/main.4e2b1c85.css.map",
+    "main.dd5da3d3.js.map": "/Mithun636/Shopping-Cart-using-Reactjs.git/static/js/main.dd5da3d3.js.map",
+    "453.0f4552a2.chunk.js.map": "/Mithun636/Shopping-Cart-using-Reactjs.git/static/js/453.0f4552a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e2b1c85.css",
+    "static/js/main.dd5da3d3.js"
+  ]
+}
