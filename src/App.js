@@ -5,7 +5,10 @@ const App = () => {
   const [fruits] = useState([
     { id: 1, name: 'Apple', Kg:'(1KG)',price: 110 },
     { id: 2, name: 'Orange', Kg:'(1KG)', price: 75},
-    { id: 3, name: 'Cherry',Kg:'(1KG)', price: 80 },
+    { id: 3, name: 'Mango',Kg:'(1KG)', price: 150 },
+    { id: 4, name: 'Cherry',Kg:'(1KG)', price: 80 },
+    { id: 3, name: 'Pine Apple',Kg:'(1KG)', price: 40 },
+    { id: 3, name: 'Grapes',Kg:'(1KG)', price: 50 },
   ]);
 
   const [cartItems, setCartItems] = useState([]);
@@ -25,7 +28,7 @@ const App = () => {
       <ul>
         {fruits.map((fruit) => (
           <li key={fruit.id}>
-            {fruit.name} {fruit.Kg}- ₹{fruit.price.toFixed(2)}
+            {fruit.name} {fruit.Kg} - ₹{fruit.price.toFixed(2)}
             <button onClick={() => addToCart(fruit)} style={{ marginLeft: '10px' }}>
               Add to Cart
             </button>
